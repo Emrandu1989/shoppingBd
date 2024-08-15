@@ -8,6 +8,10 @@ import MainLayout from '../layout/MainLayout';
 import Home from '../pages/Home';
 import AddProduct from '../pages/AddProduct';
 
+import Register from '../pages/Register';
+import SignIn from '../pages/SignIn';
+
+
   const router = createBrowserRouter([
     {
       path: "/",
@@ -21,6 +25,16 @@ import AddProduct from '../pages/AddProduct';
                 path: '/addProduct',
                 element: <AddProduct />
              },
+           
+             {
+                path: '/register',
+                element: <Register />
+             },
+             {
+                path: '/signIn',
+                element: <SignIn />
+             },
+           
       ]
     },
   ]);

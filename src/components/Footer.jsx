@@ -4,7 +4,7 @@ import logo from '../assets/shopping.jpg'
 const Footer = () => {
     return (
         <div>
-            <footer className="footer bg-base-200 text-base-content p-10">
+            <footer className="footer bg-base-200 mt-3 text-base-content p-10">
   <aside className='flex flex-col justify-center items-center'>
       <img className='' src={logo} alt="" />
     <p>

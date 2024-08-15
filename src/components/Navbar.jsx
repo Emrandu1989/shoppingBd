@@ -7,7 +7,14 @@ const Navbar = () => {
              
               <li> <NavLink to='addProduct'>Add Product</NavLink> </li>
               <li> <NavLink to='/allProduct'>AllProduct</NavLink> </li>
-              <li> <NavLink to='shoppingBd'>About ShoppingDb</NavLink> </li>
+         
+
+              
+   <button className="bg-gray-600 px-3 rounded-xl btn  text-white">LogOut</button> : <div className="flex"> 
+          <li> <NavLink  to='/signIn'> <button className="">Login</button>  </NavLink>  </li>
+       <li> <NavLink to='/register'> <button className="">Register</button>  </NavLink>  </li>
+  </div>
+
        </>
     return (
         <div>
@@ -44,7 +51,9 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+  {/* {
+         user ?  <img title={user.displayName} className="rounded-xl w-[80px] ml-2" src={user?.photoURL} alt="" /> : ""
+      } */}
   </div>
 </div>
         </div>
