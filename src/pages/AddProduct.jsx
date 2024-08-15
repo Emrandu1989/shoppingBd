@@ -3,13 +3,14 @@ import { Helmet } from 'react-helmet-async';
 
 const AddProduct = () => {
     return (
-        <div>
+        <div className='mt-6'>
                  <>
               <Helmet>
                       <title> ShoppingBd |  AddProducts </title>
               </Helmet>
            
            <form>
+              <h2 className='text-3xl font-bold text-orange-500'> Products details</h2>
 
             <div className="lg:flex gap-4 justify-between items-center lg:px-12">
             <div className="form-control">
@@ -66,7 +67,7 @@ const AddProduct = () => {
      
             </div>
 
-        <div className="form-control mt-6">
+        <div className="form-control w-[1000px] ml-16 my-12">
           <button className="btn btn-primary">Add Products</button>
         </div>
       </form>
