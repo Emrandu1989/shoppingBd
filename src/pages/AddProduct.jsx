@@ -2,6 +2,18 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const AddProduct = () => {
+      const handleAddProducts = async(e) =>{
+         e.preventDefault();
+         const form = e.target;
+         const name = form.name.value;
+         const photoUrl = form.photoUrl.value;
+         const price = form.price.value;
+         const category = form.category.value;
+         const date = form.date.value;
+         const ratings = form.ratings.value;
+         const productDetails = {
+              name, photoUrl, price, category, date, ratings }
+      }
     return (
         <div className='mt-6'>
                  <>
@@ -47,7 +59,7 @@ const AddProduct = () => {
           <label className="label">
             <span className="label-text">Creation Date</span>
           </label>
-          <input type="date"  name="expiredDate" placeholder="Expired Date" className="input input-bordered lg:w-[500px]" required />
+          <input type="date"  name="date" placeholder="Creation Date" className="input input-bordered lg:w-[500px]" required />
         </div>
         <div className="form-control">
           <label className="label">
