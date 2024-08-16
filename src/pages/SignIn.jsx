@@ -1,8 +1,50 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../providers/AuthProvider';
+import Swal from 'sweetalert2';
 
 const SignIn = () => {
+     const {user, login} = useContext(AuthContext);
+     console.log(user);
+       
+     const handleLogin = (e) =>{
+      e.preventDefault();
+      const form = e.target;
+     
+      const email = form.email.value;
+      
+      const password = form.password.value;
+      const user = { email, password};
+      console.log(user)
+      login(email,password)
+      .then(result=>{
+         const loggedUser = result.user;
+         console.log(loggedUser)
+         Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Login Successfully",
+            showConfirmButton: false,
+            timer: 1500
+          });
+        //   setTimeout(()=>{
+        //     navigate(location?.state ? location.state : '/')
+        // }, 2000)
+
+      })
+      .catch(error=>{
+         console.log(error)
+         Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: error,
+            showConfirmButton: false,
+            timer: 1500
+          });
+      })
+   }
+
     return (
         <>
              <Helmet>
@@ -16,7 +58,7 @@ const SignIn = () => {
          <span className="font-bold text-3xl lg:text-5xl text-gray-400">welcome to ShoppingBd</span>
     </div>
     <div className="card shrink-0 lg:w-1/2  shadow-2xl bg-base-100">
-      <form  className="card-body ">
+      <form onSubmit={handleLogin}  className="card-body ">
          <h1 className="text-center font-bold text-4xl text-gray-400">Please Login</h1>
         <div className="form-control ">
           <label className="label">

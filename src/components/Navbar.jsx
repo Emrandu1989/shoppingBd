@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../assets/shopping.jpg'
+import { AuthContext } from '../providers/AuthProvider';
 const Navbar = () => {
+    const {user, logOut } = useContext(AuthContext);
+    console.log(user)
+    const handleLogOut = () =>{
+      logOut()
+}
      const navLinks = <>
               <li> <NavLink to='/'>Home</NavLink> </li>
              
@@ -10,10 +16,12 @@ const Navbar = () => {
          
 
               
-   <button className="bg-gray-600 px-3 rounded-xl btn  text-white">LogOut</button> : <div className="flex"> 
+  {
+    user ?
+    <button onClick={handleLogOut} className="bg-gray-600 px-3 rounded-xl btn  text-white">LogOut</button> : <div className="flex"> 
           <li> <NavLink  to='/signIn'> <button className="">Login</button>  </NavLink>  </li>
        <li> <NavLink to='/register'> <button className="">Register</button>  </NavLink>  </li>
-  </div>
+  </div>}
 
        </>
     return (
