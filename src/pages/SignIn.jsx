@@ -5,7 +5,7 @@ import { AuthContext } from '../providers/AuthProvider';
 import Swal from 'sweetalert2';
 
 const SignIn = () => {
-     const {user, login} = useContext(AuthContext);
+     const {user, googleLogin ,login} = useContext(AuthContext);
      console.log(user);
        
      const handleLogin = (e) =>{
@@ -44,6 +44,15 @@ const SignIn = () => {
           });
       })
    }
+
+   const handleGoogleLogin = () =>{
+    googleLogin()
+   
+    setTimeout(()=>{
+      navigate(location?.state ? location.state : '/')
+  }, 2000)
+   }
+
 
     return (
         <>
@@ -85,7 +94,7 @@ const SignIn = () => {
          <div>
               <h2 className="font-bold text-3xl">Login with google and github</h2>
               <div className="space-x-5 my-2 flex justify-center items-center">
-                   <button  className="btn btn-primary">Google</button>
+                   <button onClick={handleGoogleLogin}  className="btn btn-primary">Google</button>
                    <button   className="btn btn-outline">GitHub</button>
               </div>
          </div>
