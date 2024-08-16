@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Wireless Earbuds",
+    "image": "https://via.placeholder.com/150",
+    "description": "High-quality wireless earbuds with noise cancellation.",
+    "price": 59.99,
+    "category": "Electronics",
+    "ratings": 4.5,
+    "creationDate": "2024-08-01T10:15:00Z",
+    "brand": "SoundWave"
+  },
+  {
+    "name": "Gaming Laptop",
+    "image": "https://via.placeholder.com/150",
+    "description": "Powerful gaming laptop with a high refresh rate display.",
+    "price": 1299.99,
+    "category": "Computers",
+    "ratings": 4.7,
+    "creationDate": "2024-07-30T14:30:00Z",
+    "brand": "GamerX"
+  },
+  {
+    "name": "Smartphone Pro",
+    "image": "https://via.placeholder.com/150",
+    "description": "Latest smartphone with advanced camera features.",
+    "price": 999.99,
+    "category": "Mobile Phones",
+    "ratings": 4.6,
+    "creationDate": "2024-08-10T08:20:00Z",
+    "brand": "PixelPlus"
+  },
+  {
+    "name": "4K Ultra HD TV",
+    "image": "https://via.placeholder.com/150",
+    "description": "Ultra HD TV with stunning picture quality and smart features.",
+    "price": 799.99,
+    "category": "Electronics",
+    "ratings": 4.4,
+    "creationDate": "2024-08-12T11:00:00Z",
+    "brand": "VisionMax"
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "image": "https://via.placeholder.com/150",
+    "description": "Portable Bluetooth speaker with deep bass and long battery life.",
+    "price": 49.99,
+    "category": "Audio",
+    "ratings": 4.3,
+    "creationDate": "2024-08-09T13:45:00Z",
+    "brand": "BassBoom"
+  },
+  {
+    "name": "Fitness Tracker",
+    "image": "https://via.placeholder.com/150",
+    "description": "Track your fitness goals with this advanced fitness tracker.",
+    "price": 89.99,
+    "category": "Wearables",
+    "ratings": 4.2,
+    "creationDate": "2024-08-11T09:25:00Z",
+    "brand": "FitPulse"
+  },
+  {
+    "name": "Gaming Mouse",
+    "image": "https://via.placeholder.com/150",
+    "description": "Precision gaming mouse with customizable buttons.",
+    "price": 39.99,
+    "category": "Computers",
+    "ratings": 4.7,
+    "creationDate": "2024-08-05T12:10:00Z",
+    "brand": "ClickPro"
+  },
+  {
+    "name": "Action Camera",
+    "image": "https://via.placeholder.com/150",
+    "description": "Capture your adventures in 4K with this durable action camera.",
+    "price": 199.99,
+    "category": "Cameras",
+    "ratings": 4.5,
+    "creationDate": "2024-08-02T15:35:00Z",
+    "brand": "AdventureCam"
+  },
+  {
+    "name": "Smartwatch Pro",
+    "image": "https://via.placeholder.com/150",
+    "description": "Advanced smartwatch with fitness tracking and notifications.",
+    "price": 199.99,
+    "category": "Wearables",
+    "ratings": 4.6,
+    "creationDate": "2024-07-31T08:40:00Z",
+    "brand": "WristTech"
+  },
+  {
+    "name": "Tablet",
+    "image": "https://via.placeholder.com/150",
+    "description": "Lightweight tablet with a high-resolution display.",
+    "price": 349.99,
+    "category": "Tablets",
+    "ratings": 4.4,
+    "creationDate": "2024-08-07T14:55:00Z",
+    "brand": "TabMaster"
+  },
+  {
+    "name": "Digital Camera",
+    "image": "https://via.placeholder.com/150",
+    "description": "Compact digital camera with excellent low-light performance.",
+    "price": 249.99,
+    "category": "Cameras",
+    "ratings": 4.3,
+    "creationDate": "2024-08-03T11:50:00Z",
+    "brand": "SnapShot"
+  },
+  {
+    "name": "Wireless Charger",
+    "image": "https://via.placeholder.com/150",
+    "description": "Fast wireless charger compatible with multiple devices.",
+    "price": 29.99,
+    "category": "Accessories",
+    "ratings": 4.5,
+    "creationDate": "2024-08-06T10:00:00Z",
+    "brand": "ChargeUp"
+  },
+  {
+    "name": "Electric Kettle",
+    "image": "https://via.placeholder.com/150",
+    "description": "Quickly boil water with this energy-efficient electric kettle.",
+    "price": 39.99,
+    "category": "Home Appliances",
+    "ratings": 4.4,
+    "creationDate": "2024-08-04T13:10:00Z",
+    "brand": "BoilMaster"
+  },
+  {
+    "name": "Smart Thermostat",
+    "image": "https://via.placeholder.com/150",
+    "description": "Control your home temperature remotely with this smart thermostat.",
+    "price": 129.99,
+    "category": "Home Automation",
+    "ratings": 4.6,
+    "creationDate": "2024-08-08T09:50:00Z",
+    "brand": "EcoTemp"
+  },
+  {
+    "name": "Noise-Cancelling Headphones",
+    "image": "https://via.placeholder.com/150",
+    "description": "Immerse yourself in music with these noise-cancelling headphones.",
+    "price": 199.99,
+    "category": "Audio",
+    "ratings": 4.7,
+    "creationDate": "2024-08-15T08:30:00Z",
+    "brand": "QuietSound"
+  },
+  {
+    "name": "Smart Light Bulb",
+    "image": "https://via.placeholder.com/150",
+    "description": "Control your lighting with your voice or smartphone.",
+    "price": 19.99,
+    "category": "Home Automation",
+    "ratings": 4.3,
+    "creationDate": "2024-08-13T14:20:00Z",
+    "brand": "BrightLife"
+  },
+  {
+    "name": "Portable Power Bank",
+    "image": "https://via.placeholder.com/150",
+    "description": "Keep your devices charged on the go with this power bank.",
+    "price": 29.99,
+    "category": "Accessories",
+    "ratings": 4.4,
+    "creationDate": "2024-08-14T10:25:00Z",
+    "brand": "ChargeBuddy"
+  },
+  {
+    "name": "Smart Doorbell",
+    "image": "https://via.placeholder.com/150",
+    "description": "See who's at the door from your smartphone with this smart doorbell.",
+    "price": 149.99,
+    "category": "Home Security",
+    "ratings": 4.5,
+    "creationDate": "2024-08-16T13:35:00Z",
+    "brand": "SafeView"
+  },
+  {
+    "name": "Robot Vacuum Cleaner",
+    "image": "https://via.placeholder.com/150",
+    "description": "Automate your cleaning with this smart robot vacuum cleaner.",
+    "price": 249.99,
+    "category": "Home Appliances",
+    "ratings": 4.6,
+    "creationDate": "2024-08-17T12:10:00Z",
+    "brand": "CleanBot"
+  },
+  {
+    "name": "Bluetooth Keyboard",
+    "image": "https://via.placeholder.com/150",
+    "description": "Type comfortably with this wireless Bluetooth keyboard.",
+    "price": 39.99,
+    "category": "Computers",
+    "ratings": 4.4,
+    "creationDate": "2024-08-18T09:00:00Z",
+    "brand": "TypeEasy"
+  },
+  {
+    "name": "Cordless Drill",
+    "image": "https://via.placeholder.com/150",
+    "description": "Powerful cordless drill for your DIY projects.",
+    "price": 69.99,
+    "category": "Tools",
+    "ratings": 4.5,
+    "creationDate": "2024-08-19T13:15:00Z",
+    "brand": "DrillMaster"
+  },
+  {
+    "name": "Smart Door Lock",
+    "image": "https://via.placeholder.com/150",
+    "description": "Secure your home with this smart door lock.",
+    "price": 179.99,
+    "category": "Home Security",
+    "ratings": 4.7,
+    "creationDate": "2024-08-20T11:25:00Z",
+    "brand": "SecureLock"
+  },
+  {
+    "name": "Portable Air Conditioner",
+    "image": "https://via.placeholder.com/150",
+    "description": "Keep cool with this portable air conditioner.",
+    "price": 299.99,
+    "category": "Home Appliances",
+    "ratings": 4.3,
+    "creationDate": "2024-08-21T10:10:00Z",
+    "brand": "CoolBreeze"
+  },
+  {
+    "name": "Electric Toothbrush",
+    "image": "https://via.placeholder.com/150",
+    "description": "Maintain oral hygiene with this electric toothbrush.",
+    "price": 49.99,
+    "category": "Personal Care",
+    "ratings": 4.5,
+    "creationDate": "2024-08-22T08:45:00Z",
+    "brand": "SmileBright"
+  },
+  {
+    "name": "Smart Refrigerator",
+    "image": "https://via.placeholder.com/150",
+    "description": "Modern smart refrigerator with touch screen control.",
+    "price": 1499.99,
+    "category": "Home Appliances",
+    "ratings": 4.7,
+    "creationDate": "2024-08-23T14:20:00Z",
+    "brand": "CoolMaster"
+  },
+  {
+    "name": "Smart Coffee Maker",
+    "image": "https://via.placeholder.com/150",
+    "description": "Brew coffee with your voice or smartphone with this smart coffee maker.",
+    "price": 129.99,
+    "category": "Home Appliances",
+    "ratings": 4.4,
+    "creationDate": "2024-08-24T12:35:00Z",
+    "brand": "BrewMaster"
+  },
+  {
+    "name": "Security Camera",
+    "image": "https://via.placeholder.com/150",
+    "description": "Keep an eye on your property with this high-definition security camera.",
+    "price": 99.99,
+    "category": "Home Security",
+    "ratings": 4.6,
+    "creationDate": "2024-08-25T10:50:00Z",
+    "brand": "SafeGuard"
+  },
+  {
+    "name": "Smart Plug",
+    "image": "https://via.placeholder.com/150",
+    "description": "Control your appliances remotely with this smart plug.",
+    "price": 24.99,
+    "category": "Home Automation",
+    "ratings": 4.3,
+    "creationDate": "2024-08-26T09:30:00Z",
+    "brand": "PlugSmart"
+  },
+  {
+    "name": "Electric Scooter",
+    "image": "https://via.placeholder.com/150",
+    "description": "Eco-friendly electric scooter with a long battery life.",
+    "price": 499.99,
+    "category": "Transportation",
+    "ratings": 4.5,
+    "creationDate": "2024-08-27T13:00:00Z",
+    "brand": "EcoRide"
+  },
+  {
+    "name": "Smart Mirror",
+    "image": "https://via.placeholder.com/150",
+    "description": "Interactive smart mirror with voice control.",
+    "price": 199.99,
+    "category": "Home Automation",
+    "ratings": 4.6,
+    "creationDate": "2024-08-28T11:15:00Z",
+    "brand": "ReflectTech"
+  },
+  {
+    "name": "Smart Scale",
+    "image": "https://via.placeholder.com/150",
+    "description": "Track your weight and health metrics with this smart scale.",
+    "price": 59.99,
+    "category": "Health",
+    "ratings": 4.4,
+    "creationDate": "2024-08-29T14:00:00Z",
+    "brand": "HealthTrack"
+  },
+  {
+    "name": "Smart Smoke Detector",
+    "image": "https://via.placeholder.com/150",
+    "description": "Stay safe with this smart smoke detector.",
+    "price": 79.99,
+    "category": "Home Security",
+    "ratings": 4.5,
+    "creationDate": "2024-08-30T09:40:00Z",
+    "brand": "SafeAlert"
+  },
+  {
+    "name": "Smart Glasses",
+    "image": "https://via.placeholder.com/150",
+    "description": "Augmented reality smart glasses for immersive experiences.",
+    "price": 399.99,
+    "category": "Wearables",
+    "ratings": 4.6,
+    "creationDate": "2024-08-31T15:20:00Z",
+    "brand": "VisionTech"
+  },
+  {
+    "name": "3D Printer",
+    "image": "https://via.placeholder.com/150",
+    "description": "Create prototypes and models with this high-resolution 3D printer.",
+    "price": 799.99,
+    "category": "Electronics",
+    "ratings": 4.7,
+    "creationDate": "2024-09-01T12:05:00Z",
+    "brand": "PrintMaster"
+  },
+  {
+    "name": "Smart Mattress",
+    "image": "https://via.placeholder.com/150",
+    "description": "Sleep better with this temperature-regulating smart mattress.",
+    "price": 999.99,
+    "category": "Home",
+    "ratings": 4.6,
+    "creationDate": "2024-09-02T10:25:00Z",
+    "brand": "SleepWell"
+  },
+  {
+    "name": "Portable Projector",
+    "image": "https://via.placeholder.com/150",
+    "description": "Enjoy movies anywhere with this portable projector.",
+    "price": 299.99,
+    "category": "Electronics",
+    "ratings": 4.5,
+    "creationDate": "2024-09-03T14:10:00Z",
+    "brand": "MovieMate"
+  }
+]

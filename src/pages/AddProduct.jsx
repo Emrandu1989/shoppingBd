@@ -13,6 +13,17 @@ const AddProduct = () => {
          const ratings = form.ratings.value;
          const productDetails = {
               name, photoUrl, price, category, date, ratings }
+              console.log(productDetails)
+
+              // send data to the server
+            //  fetch('http://localhost:5000/product',{
+            //    method: 
+            //  })
+            //  .then(res => res.json())
+            //  .then(data=> {
+            //   console.log(data)
+            //  })
+
       }
     return (
         <div className='mt-6'>
@@ -21,7 +32,8 @@ const AddProduct = () => {
                       <title> ShoppingBd |  AddProducts </title>
               </Helmet>
            
-           <form>
+           <form
+            onSubmit={handleAddProducts}>
               <h2 className='text-3xl font-bold text-orange-500'> Products details</h2>
 
             <div className="lg:flex gap-4 justify-between items-center lg:px-12">
@@ -44,7 +56,7 @@ const AddProduct = () => {
           <label className="label">
             <span className="label-text">Price</span>
           </label>
-          <input type="text" name="Price"  placeholder="Price" className="input input-bordered lg:w-[500px]" required />
+          <input type="text" name="price"  placeholder="Price" className="input input-bordered lg:w-[500px]" required />
         </div>
         <div className="form-control">
           <label className="label">
