@@ -1,40 +1,43 @@
 import React from 'react';
-import logo from '../assets/shopping.jpg'
+import logo from '../assets/shopping.jpg';
 
 const Footer = () => {
     return (
-        <div>
-            <footer className="footer bg-base-200 mt-3 text-base-content p-10">
-  <aside className='flex flex-col justify-center items-center'>
-      <img className='' src={logo} alt="" />
-    <p>
-     Shopping Bd Ltd.
-      <br />
-      Providing reliable tech since 1992
-    </p>
-  </aside>
-  <nav>
-    <h6 className="footer-title">Services</h6>
-    <a className="link link-hover">Branding</a>
-    <a className="link link-hover">Design</a>
-    <a className="link link-hover">Marketing</a>
-    <a className="link link-hover">Advertisement</a>
-  </nav>
-  <nav>
-    <h6 className="footer-title">Company</h6>
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
-  </nav>
-  <nav>
-    <h6 className="footer-title">Legal</h6>
-    <a className="link link-hover">Terms of use</a>
-    <a className="link link-hover">Privacy policy</a>
-    <a className="link link-hover">Cookie policy</a>
-  </nav>
-</footer>
-        </div>
+        <footer className="bg-orange-600 text-white py-10">
+            <div className="container mx-auto px-4">
+                <div className="flex flex-col md:flex-row justify-between items-center">
+                    <div className="flex flex-col items-center md:items-start mb-8 md:mb-0">
+                        <img src={logo} alt="Shopping BD Logo" className="w-32 mb-4" />
+                        <p className="text-center md:text-left">
+                            Shopping BD Ltd.
+                           
+                        </p>
+                    </div>
+                    <div className="flex flex-col md:flex-row justify-between w-full md:w-3/4">
+                        <nav className="mb-8 md:mb-0">
+                            <h6 className="text-xl font-semibold mb-4">Services</h6>
+                            <a className="block mb-2 hover:text-orange-300 transition-colors">Branding</a>
+                            <a className="block mb-2 hover:text-orange-300 transition-colors">Design</a>
+                            <a className="block mb-2 hover:text-orange-300 transition-colors">Marketing</a>
+                            <a className="block mb-2 hover:text-orange-300 transition-colors">Advertisement</a>
+                        </nav>
+                        <nav className="mb-8 md:mb-0">
+                            <h6 className="text-xl font-semibold mb-4">Company</h6>
+                            <a className="block mb-2 hover:text-orange-300 transition-colors">About us</a>
+                            <a className="block mb-2 hover:text-orange-300 transition-colors">Contact</a>
+                            <a className="block mb-2 hover:text-orange-300 transition-colors">Jobs</a>
+                            <a className="block mb-2 hover:text-orange-300 transition-colors">Press kit</a>
+                        </nav>
+                        <nav>
+                            <h6 className="text-xl font-semibold mb-4">Legal</h6>
+                            <a className="block mb-2 hover:text-orange-300 transition-colors">Terms of use</a>
+                            <a className="block mb-2 hover:text-orange-300 transition-colors">Privacy policy</a>
+                            <a className="block mb-2 hover:text-orange-300 transition-colors">Cookie policy</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
     );
 };
 
